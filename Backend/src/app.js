@@ -8,6 +8,7 @@ const cors = require("cors");
 const app = express();
 app.use(cors())
 
+
 app.post("/upload", upload.single("image"), async (req, res) => {
   const result = await uploadFile(req.file.buffer);
   console.log(result);
