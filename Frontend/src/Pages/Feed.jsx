@@ -15,9 +15,9 @@ const Feed = () => {
 
   return (
     <>
-    <div className="flex flex-col items-center mb-4 gap-2 ">
-        <h1 className="uppercase font-bold text-3xl">Your Feed</h1>
-    <div className=" md:flex gap-4">
+    <div className="flex flex-col items-center mb-8 gap-2 ">
+        <h1 className="uppercase font-bold text-3xl mb-4">Your Feed</h1>
+    <div className=" grid md:grid-cols-3 xl:grid-cols-4 gap-12  ">
         
      
         {
